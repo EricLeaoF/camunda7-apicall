@@ -6,15 +6,15 @@ Esse projeto é uma demonstração que contém um simples preenchimento de formu
 
 A request realizada nesse projeto é para [mailSender](https://github.com/EricLeaoF/mailsender-sb) do qual basta fazer o download e iniciar a aplicação
 
-Lembrando que a porta do serviço de emails deve ser 8081, já que o camunda já executará na porta 8080. No arquivo aplication.properties devem ser definidas as variáveis do seu servidor de emails:
+Lembrando que a porta do serviço de emails deve ser 8081, já que o camunda já executará na porta 8080. No arquivo aplication.properties do mailsender-sb devem ser definidas as variáveis do seu servidor de emails:
 
 ```Java
 
 spring.application.name=
-spring.mail.host=sandbox.smtp.mailtrap.io
+spring.mail.host=
 spring.mail.port=
-spring.mail.username=a0e9f5c7acc0fd
-spring.mail.password=39d60bf2a64d4d
+spring.mail.username=
+spring.mail.password=
 spring.mail.properties.mail.smtp.auth=
 spring.mail.properties.mail.smtp.starttls.enable=
 server.port=8081
